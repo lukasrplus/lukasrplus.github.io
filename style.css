@@ -20,10 +20,51 @@ h1 {
   font-size: 50px;
   color: white;
   background-color: black;
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .jumbotron p {
   text-align: center;
   color: white;
   background-color: black;
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.panel-heading {
+  background-color: black;
+}
+
+
+.panel-title {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 30px;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.panel-body {
+  text-align: center;
+  font-size: 100px;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: bolder;
+  line-height:1;
+
+}
+
+.red {
+  text-align: center;
+  font-size: 100px;
+  color: red;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: bolder;
+  line-height:1;
 }
